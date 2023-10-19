@@ -204,6 +204,11 @@ docker-compose exec backend python manage.py collectstatic --no-input
 ```
 docker-compose exec web python manage.py createsuperuser
 ```
+#### Проект будет доступен по адрессу:
+* https://localhost/
+* https://localhost/backend/admin - админка
+* https://localhost/backend/docs/ - swagger
+* http://localhost:5555/ - flower
 #### Остановить контейнер:
 ```
 docker-compose stop
