@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Can add Клиент",
+    "model": "Client",
+    "codename": "add_client"
+  },
+  {
+    "name": "Can change Клиент",
+    "model": "Client",
+    "codename": "change_client"
+  },
+  {
+    "name": "Can delete Клиент",
+    "model": "Client",
+    "codename": "delete_client"
+  },
+  {
+    "name": "Can view Клиент",
+    "model": "Client",
+    "codename": "view_client"
+  },
+  {
+    "name": "Can add Рассылка",
+    "model": "Mailing",
+    "codename": "add_mailing"
+  },
+  {
+    "name": "Can change Рассылка",
+    "model": "Mailing",
+    "codename": "change_mailing"
+  },
+  {
+    "name": "Can delete Рассылка",
+    "model": "Mailing",
+    "codename": "delete_mailing"
+  },
+  {
+    "name": "Can view Рассылка",
+    "model": "Mailing",
+    "codename": "view_mailing"
+  },
+  {
+    "name": "Can add Мобильный оператор",
+    "model": "MobileOperator",
+    "codename": "add_mobileoperator"
+  },
+  {
+    "name": "Can change Мобильный оператор",
+    "model": "MobileOperator",
+    "codename": "change_mobileoperator"
+  },
+  {
+    "name": "Can delete Мобильный оператор",
+    "model": "MobileOperator",
+    "codename": "delete_mobileoperator"
+  },
+  {
+    "name": "Can view Мобильный оператор",
+    "model": "MobileOperator",
+    "codename": "view_mobileoperator"
+  },
+  {
+    "name": "Can add Тег",
+    "model": "Tag",
+    "codename": "add_tag"
+  },
+  {
+    "name": "Can change Тег",
+    "model": "Tag",
+    "codename": "change_tag"
+  },
+  {
+    "name": "Can delete Тег",
+    "model": "Tag",
+    "codename": "delete_tag"
+  },
+  {
+    "name": "Can view Тег",
+    "model": "Tag",
+    "codename": "view_tag"
+  },
+  {
+    "name": "Can add Сообщение",
+    "model": "Message",
+    "codename": "add_message"
+  },
+  {
+    "name": "Can change Сообщение",
+    "model": "Message",
+    "codename": "change_message"
+  },
+  {
+    "name": "Can delete Сообщение",
+    "model": "Message",
+    "codename": "delete_message"
+  },
+  {
+    "name": "Can view Сообщение",
+    "model": "Message",
+    "codename": "view_message"
+  }
+]

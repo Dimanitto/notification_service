@@ -1,0 +1,30 @@
+{% extends 'admin/login.html' %}
+
+{% block content %}
+  <div class="custom-login-form">
+     <form method="post" class="login-form">{% csrf_token %}
+      <div class="form-row">
+    {{ form.username.errors }}
+    {{ form.username.label_tag }} {{ form.username }}
+  </div>
+  <div class="form-row">
+    {{ form.password.errors }}
+    {{ form.password.label_tag }} {{ form.password }}
+    <input type="hidden" name="next" value="{{ next }}">
+  </div>
+  {% url 'admin_password_reset' as password_reset_url %}
+  {% if password_reset_url %}
+  <div class="password-reset-link">
+    <a href="{{ password_reset_url }}">Забыли пароль или логин?</a>
+  </div>
+  {% endif %}
+  <div class="submit-row">
+    <input type="submit" value=Войти>
+  </div>
+      <li class="google">
+ <a href="{% url "social:begin" "google-oauth2" %}">
+    Войти с помощью Google
+ </a>
+ </li>
+  </div>
+{% endblock %}
