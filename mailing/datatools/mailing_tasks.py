@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
 from constance import config
-from django_celery_beat.models import PeriodicTask, ClockedSchedule
+from django_celery_beat.models import ClockedSchedule, PeriodicTask
 
 from mailing import models
 from notification.celery import app

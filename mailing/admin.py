@@ -49,8 +49,8 @@ class Message(ModelAdmin):
 class Client(ModelAdmin):
     list_display = ('phone', 'operator', 'tag', 'timezone')
     search_fields = ('phone', 'operator__name', 'tag__name', 'timezone')
-    search_help_text = 'Поиск по: номеру телефона, оператору, ' \
-                       'тэгу и часовому поясу'
+    search_help_text = ('Поиск по: номеру телефона, оператору, '
+                        'тэгу и часовому поясу')
 
 
 @admin.register(models.MobileOperator)

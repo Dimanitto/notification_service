@@ -5,9 +5,9 @@ import pytz
 import requests
 from constance import config
 from django.core.mail import send_mail
-from django.db.models import Q, Count
+from django.db.models import Count, Q
 
-from mailing import models, conts
+from mailing import conts, models
 from notification import celery_app, settings
 
 RETRY_SECONDS = 6 * 60

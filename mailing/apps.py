@@ -6,4 +6,4 @@ class MailingConfig(AppConfig):
     name = 'mailing'
 
     def ready(self) -> None:
-        from mailing import signals     # noqa
+        from mailing import signals  # noqa

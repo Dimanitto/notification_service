@@ -1,3 +1,5 @@
+import logging
+
 from django.contrib.auth.views import LoginView
 from django_celery_beat.models import PeriodicTask
 from rest_framework import viewsets
@@ -9,7 +11,6 @@ from mailing import models, serializers
 from mailing.datatools.mailing_tasks import process_mailing
 from mailing.datatools.message_statistics import get_message_statistics
 
-import logging
 logger = logging.getLogger('django')
 
 
